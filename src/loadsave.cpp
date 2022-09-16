@@ -24,7 +24,7 @@
 #include <io.h>
 #endif // _WIN32
 #ifdef __linux__
-#include <sys/io.h>
+#include <sys/uio.h>
 #endif // __linux__
 #ifdef __GNUC__
 #include <unistd.h>
