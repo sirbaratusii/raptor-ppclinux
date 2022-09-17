@@ -66,6 +66,7 @@ if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
         textscreen
         asound
         SDL2::SDL2
+        SDLMain
         )
 
 elseif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
